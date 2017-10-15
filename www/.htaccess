@@ -1,0 +1,11 @@
+#######################
+#  GydruS's Engine 3  #
+#    .htaccess File   #
+#######################
+
+AddDefaultCharset UTF-8
+RewriteEngine On
+RedirectMatch 404 ^.*\.xml$
+RewriteCond %{REQUEST_URI} !3rdParty [NC]
+RewriteCond %{REQUEST_FILENAME} !(.css|.js|.php|.ico|.swf|.jpg|.gif|.png|.bmp|.zip|.rar|.doc|.xls|.txt|.pdf)$ [NC]
+RewriteRule ^(.*)$ index.php?$1 [L]

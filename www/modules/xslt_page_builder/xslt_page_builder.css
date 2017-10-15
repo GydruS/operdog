@@ -1,0 +1,387 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    /*background-image: url(img/bg-02.jpg);*/
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: white;
+    color: #333;
+    /*font-family: sans-serif;*/
+}
+
+a {
+    color: #006621;
+}
+a:hover, a:active, a:focus {
+    color: #208641;
+}
+
+h1 {
+    font-size: 26px;
+    padding-bottom: 12px;
+    color: #666;
+    font-weight: 100;
+    /*display: none;*/
+}
+
+h2 {
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+
+.footer {
+    margin-top: 20px;
+    border-top: 1px dashed #ddd;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+    /*height: 100px;*/
+    /*background-color: #f8f8f8;*/
+}
+
+.navbar-brand {
+    color: #006621;
+}
+
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus {
+    color: #208641;
+}
+
+.icon-bar {
+    background-color: #006621;
+}
+
+ul.nav {padding-left: 100px;}
+
+.nav li a {
+    color: #006621;
+}
+
+.nav li:hover a, .nav li:active a, .nav li:focus a, .nav li.active a {
+    background-color: #f4f4f4;
+    color: #208641;
+}
+
+.systermMessagesBlock {
+    padding-top: 24px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) {
+    /*background-color: #f9f9f9;*/
+    background-color: rgba(0,0,0,0.025);
+}
+
+.table > tbody > tr > td, .table > thead > tr > th {
+    /*border-color: #006621;*/
+    /*border-color: #bbccbb;*/
+    border-color: #bbb;
+}
+
+.advertAddedDatetime {
+    /*color: #999;*/
+    /*font-size: 10px;*/
+    display: block;
+    padding-bottom: 12px;
+}
+
+.advertReward {
+    padding-bottom: 12px;
+    /*color: #9A9;*/
+    /*font-size: 10px;*/
+    display: block;
+}
+
+.infoLabel {color: #999;}
+.advertText {}
+.advertLastSeenPlace {padding-top: 8px;}
+.advertPhone {padding-top: 8px;}
+.advertPhone .value {font-weight: bold;}
+.advertContacterName {padding-top: 8px;}
+
+/*
+.navbar-white {
+    z-index: 9999 !important;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.vmiddle {
+    vertical-align: middle;
+}
+
+.modal-dialog {
+    top: 30%;
+}
+*/
+
+.imageControl {
+    display:inline-block;
+    height: 140px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    margin-right: 10px;
+}
+
+.advertsListPreviewImage {
+    /*border: 1px solid #bbb;*/
+    border-radius: 2px;
+    float: left;
+    /*display: inline-block;*/
+    margin-right: 20px;
+    margin-bottom: 14px;
+}
+
+.imagePreview {
+    display: inline-block;
+    height: 160px;
+    margin-right: 10px;
+}
+
+.imagePreview img {
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.form-control {
+    color: #333;
+    background-color: #f4f4f4;
+    border-color: #bbb;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #f4f4f4;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.itemsPerPageGroup, .pagination {
+    padding-top: 12px;
+}
+.itemsPerPageGroup select {
+    font-size: 12px;
+    padding: 1px;
+}
+.itemsPerPageGroup label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.itemsPerPageGroup select {
+    font-size: 12px;
+    padding: 1px;
+}
+
+/*.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {*/
+.pagination > .active > a, .pagination > .active > a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #006621;
+    border-color: #006621;
+}
+
+.pagination > li > a {
+    color: #006621;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #006621;
+    border-color: #004611;
+}
+
+.btn-primary:hover, .btn-primary:focus .btn-primary:active {
+    background-color: #108641;
+    border-color: #006621;
+}
+
+a.navbar-brand {
+    padding: 8px 20px 0px 20px;
+}
+#Logo {
+    /*width: 200px;*/
+    max-height: 46px;
+}
+
+a.navButton {
+    padding-top: 15px !important;
+    padding-bottom: 0px !important;
+}
+
+.nohover:hover a, .noactive:active a {
+    background-color: transparent !important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 22px;
+    height: 64px;
+    font-size: 16px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    min-height: 60px;
+}
+
+.mobile .navbar {
+    margin-bottom: 10px;
+}
+
+.navbar-toggle {
+    padding-top: 13px;
+}
+
+.mobileListItem {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    min-height: 124px;
+}
+
+.mobileList :last-child {
+    border-bottom: none;
+}
+
+/*.mobile > h1 {
+    display: block;
+    text-align: center;
+}*/
+
+.mobile .itemsPerPageGroup .form-control {
+    width: auto;
+}
+
+.creds {font-size: 12px;}
+.mobile .creds {font-size: 9px;}
+
+.advertName {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.advertsListTable > thead > tr > th,
+.advertsListTable > tbody > tr > td {
+    padding: 12px;
+}
+
+.advertsListTable > tbody > tr > td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.advertBlock {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.advertEventDate {
+    padding-top: 12px;
+    color: #858585;
+    display: block;
+    font-size: 12px;
+}
+
+.advertActions {
+    padding-top: 12px;
+    display: block;
+}
+
+.advertPlace {
+    padding-top: 4px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+}
+
+.advertPreviewText {
+    padding-top: 4px;
+    color: #858585;
+    font-size: 13px;
+    display: block;
+}
+
+.advertActionIcon {
+    font-size: 15px;
+    color: #d9534f;
+}
+
+.advertName a:hover {
+    text-decoration: none;
+}
+
+.advertCard .advertName {
+    font-size: 24px;
+    padding-bottom: 4px;
+}
+
+.advertParam {
+    padding-top: 8px;
+    font-size: 16px;
+    display: block;   
+}
+
+.advertParam .name {
+    color: #858585;
+}
+
+.advertParam .value {
+    color: #333;
+}
+
+.advertParam .value.phone {
+    font-weight: bold;
+}
+
+.share {
+    display: block;
+    padding-top: 10px;
+}
+
+.share i {
+    margin-left: 12px;
+    font-size: 24px;
+}
+
+.formHR {
+    margin-top: 12px;    
+    margin-bottom: 12px;
+    border-style: dashed;
+}
+
+.mobile .form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
